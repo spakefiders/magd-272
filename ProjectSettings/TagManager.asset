@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - evil
+  - Collectible
+  - lever
+  - Powerup
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -39,11 +43,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: back
     uniqueID: 2452616307
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: middle
     uniqueID: 1627097913
