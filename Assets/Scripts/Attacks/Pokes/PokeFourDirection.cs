@@ -50,8 +50,8 @@ public class PokeFourDirection : PokeAllDirection
         }
 
         Debug.DrawRay(attackOffset.position, direction * attackRange, Color.red, attackTime);
-        Handles.color = Color.red;
-        Handles.DrawWireDisc(attackOffset.position, Vector3.forward, attackRange);
+       // Handles.color = Color.red;
+       // Handles.DrawWireDisc(attackOffset.position, Vector3.forward, attackRange);
 
         yield return new WaitForSeconds(attackTime / 2);
         // if ray cast hits, do damage
